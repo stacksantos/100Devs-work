@@ -1,0 +1,70 @@
+body {
+    background-color:rgb(144, 215, 248);
+    padding: 1.4rem;
+    color: white;
+    width: 100rem;
+    display: flex;
+    justify-content: center;
+   
+}
+.mainContent {
+    background-color:rgb(144, 215, 248);
+    border: 5px solid rgb(7, 238, 7);
+    height: 85vh;
+    padding: 3rem;
+}
+h1 {
+    margin-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+    font-style: italic;
+}
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    align-self: flex-start;
+    margin-top: 2rem;
+}
+p {
+    width: 40rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+}
+.links {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 12px;
+}
+#aboutUs {
+    text-decoration: none;
+    color: white;
+    padding-right: .4rem;
+}
+#border {
+    border-right: 3px solid grey;
+    height: 15px;
+}
+#portfolio {
+    padding-left: .4rem;
+    color:rgb(1, 156, 71)
+}
+.text img {
+    float: right;
+    padding: 20px;
+}
+.bottomLinks a {
+    color:rgb(1, 156, 71);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+#twitch {
+    padding-right: .4rem;
+}
+#twitter {
+    padding: 0 .4rem;
+}
+#youtube {
+    padding-left: .4rem;
+}

@@ -1,0 +1,15 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header, section, footer {
+    border: 1px solid black;
+    height: 200px;
+}
+.sec1 {
+    width: 33.333%
+}
+.sec2 {
+    width: 50%;
+}

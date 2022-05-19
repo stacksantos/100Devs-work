@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    height: 200px;
+    border: 1px solid black;
+}
+.thin {
+    height: 500px;
+    width: 33.33%;
+    border: 1px solid black;
+}
+.wide {
+    width:50%;
+    border: 1px solid black;
+}
