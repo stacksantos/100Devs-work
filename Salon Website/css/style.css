@@ -61,6 +61,7 @@ nav {
 .section1 {
     width: 100%;
     height: 100vh;
+    background-image: url(https://github.com/stacksantos/100Devs-work/blob/main/Salon%20Website/images/salonImage.png?raw=true);
 }
 .firstInnerSection1 {
     width: 30%;
