@@ -158,6 +158,9 @@ nav {
   margin-top: 2rem;
   border: none;
 }
+.section1-bx2 button i {
+  margin-right: 0.5rem;
+}
 .section1-bx2 button:hover {
   background-color: rgb(218, 187, 187);
 }
@@ -176,11 +179,12 @@ nav {
   width: 100%;
   height: 60%;
   font-family: "Raleway", sans-serif;
+  position: relative;
 }
 .section2Container {
   margin-top: 10rem;
   max-width: 80%;
-  padding-bottom: 4rem;
+  padding-bottom: 10rem;
 }
 .section2-bx1,
 .section2-bx2,
@@ -202,7 +206,26 @@ nav {
 .section2-bx3 p {
   font-size: 1.7rem;
 }
+.custom-shape-divider-bottom-1653621097 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
 
+.custom-shape-divider-bottom-1653621097 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 76px;
+}
+
+.custom-shape-divider-bottom-1653621097 .shape-fill {
+  fill: #fde7e7;
+}
 /* -------------------------------------------------------------------------- */
 /*                                  SECTION 3                                 */
 /* -------------------------------------------------------------------------- */
@@ -210,19 +233,21 @@ nav {
 .section3 {
   width: 100%;
   height: 80%;
-  padding: 8rem;
-  background-color: rgb(219, 218, 218);
+  background-color: #fde7e7;
+  position: relative;
 }
 .section3Container {
   max-width: 70%;
+  margin: 8rem;
 }
 .section3-bx1 {
-  max-width: 30%;
+  max-width: 40%;
   padding-right: 4rem;
 }
 .section3-bx1 h3 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 1rem;
 }
 .section3-bx1 p {
   font-size: 2rem;
@@ -244,4 +269,81 @@ nav {
 }
 .section3-bx1 i {
   margin-right: 1rem;
+}
+.section3-bx2  {
+  background-color: black;
+  padding: 2rem;
+  border: 5px solid white;
+}
+.custom-shape-divider-top-1653621045 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1653621045 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 59px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1653621045 .shape-fill {
+  fill: #fde7e7;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  SECTION 4                                 */
+/* -------------------------------------------------------------------------- */
+.section4 {
+  position: relative;
+  width: 100%;
+  height: 90%;
+}
+.section4Container {
+  width: 80%;
+  padding: 10rem;
+  margin-right: 6rem;
+  margin-top: 4rem;
+}
+.section4Container span {
+  background-color: black;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  width: 22rem;
+  padding: 1rem 2.8rem;
+  text-align: right;
+}
+.section4Container h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.section4Container i {
+  margin-right: 0.5rem;
+}
+.section4Image1 {
+  background-image: url(https://images.unsplash.com/photo-1542740348-39501cd6e2b4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974);
+  background-size: cover;
+  width: 28rem;
+  height: 38rem;
+  border: 5px solid white;
+}
+.section4Image2 {
+  background-image: url(https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1727&q=80);
+  background-size: cover;
+  width: 28rem;
+  height: 38rem;
+  border: 5px solid white;
+}
+.section4Image3 {
+  background-image: url(https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687);
+  background-size: cover;
+  width: 28rem;
+  height: 38rem;
+  border: 5px solid white;
 }
