@@ -14,6 +14,7 @@
   font-family: inherit;
   font-size: 10px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -308,7 +309,7 @@ nav {
   width: 80%;
   padding: 10rem;
   margin-right: 6rem;
-  margin-top: 4rem;
+  margin-top: 14rem;
 }
 .section4Container span {
   background-color: black;
@@ -320,7 +321,7 @@ nav {
   text-align: right;
 }
 .section4Container h3 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
 .section4Container i {
@@ -347,7 +348,6 @@ nav {
   height: 38rem;
   border: 5px solid white;
 }
-
 /* -------------------------------------------------------------------------- */
 /*                                  SECTION 5                                 */
 /* -------------------------------------------------------------------------- */
@@ -356,6 +356,7 @@ nav {
   width: 100%;
   height: 50vh;
   padding: 5rem;
+  margin: 5rem 0rem;
 }
 .section5Container {
   background-image: url(https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070);
@@ -446,4 +447,20 @@ nav {
   width: 100%;
   padding-bottom: 1rem;
 }
-
+.more a {
+  position: relative;
+}
+.more img {
+  filter: brightness(0.1);
+  z-index: 0;
+  position: relative;
+}
+.more a {
+  z-index: 1;
+  color: white;
+  position: absolute;
+}
+.more i {
+  font-size: 13rem;
+  font-weight: 200;
+}
